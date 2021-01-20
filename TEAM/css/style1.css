@@ -1,0 +1,125 @@
+
+/* body { font-family: 'Montserrat'; font-size: 15px; font-weight: 400; color: #ffffff; line-height: 30px; text-align: center; }
+
+strong { font-weight: 600; }
+
+a { color: #856dc0; border-bottom: 1px  #856dc0; text-decoration: none; transition: all .3s; }
+a:hover, a:focus { color: #856dc0; border: 0; text-decoration: none; } */
+
+
+h3 { font-size: 22px; font-weight: 300; color: #ffffff; line-height: 30px; font-style: italic; }
+
+::-moz-selection { background: #7762ac; color: #fff; text-shadow: none; }
+::selection { background: #7762ac; color: #fff; text-shadow: none; }
+/* footer starts here  */
+footer {
+	background-color: #0077ff;
+	font: 'Montserrat';
+	font-style: normal;
+	width: 100%;
+	box-sizing: border-box;
+}
+.footer-top { padding: 20px 0 20px 0; text-align: left; }
+.footer-top h3 { padding-bottom: 10px; font-weight: bold;}
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #ffffff; }
+.footer-contact p a { border-bottom: 0px dashed #ccc; }
+.footer-contact p a:hover, .footer-contact p a:focus { border-bottom: 1px dashed #856dc0; }
+
+.footer-links a { color: #ffffff; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color: #0c035a; margin-left: 3px; }
+
+.footer-bottom { padding: 0 0 0px 0; 
+align-items: center;
+text-align: center;}
+
+.footer-social a { margin: 0 2px; color: #ffffff; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #0c035a; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+ 
+/* Style the form element with a border around it */
+form {
+	border: 4px solid #0077ff;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  form .container {
+	padding: 2px;
+	background-color: #0077ff;
+	display: inline;
+  }
+  input[type=text] {
+	width: 65%;
+	  border-color: #0077ff;
+	  background-color: #0077ff;
+	  display: inline;
+  }
+  ::placeholder {
+	  color: #ffffff;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+	
+	padding: 12px;
+	margin: 0px 0;
+	display: inline;
+	border: 1px solid #0c035a;
+	box-sizing: border-box;
+	color: #0c035a;
+	border-radius: 10px;
+  }
+ 
+ 
+  /* Style the submit button */
+  input[type=submit] {
+	width: 25%;
+	background-color: #323335;
+	color: white;
+	border: none;
+  }
+  
+  input[type=submit]:hover {
+	opacity: 0.8;
+  }
+
+  .events_btn_img {
+    background-color: #bfbfbf;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 30px;
+    border: 0;
+    border-radius: 40px;
+    box-shadow: rgba(0, 191, 255, 0) 0 7px 5px;
+    width: 250px;
+    font-family: Montserrat Regular;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: Montserrate;
+}
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: black;
+    user-select: none;
+    font-family: 'Montserrat';
+    background-color: #007bff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    /* background-color: #323335; */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.container1 {
+    background-color: var(--color-1);
+    /* background: url("./goh-rhy-yan-p_5BnqHfz3Y-unsplash.png" ) no-repeat center center/cover; */
+    height: 100%;
+    margin-bottom: 8%;
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+
+/* Navbar with logo */
+
+ :root {
+    --color-1: #323335;
+    --color-2: #f9f9f9;
+}
+
+.container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: var(--color-2)
+}
+
+a {
+    color: white !important;
+    font-family: 'Merriweather', serif;
+}
+
+.lines {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.scro_logo {
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 145px;
+    height: 65px;
+}
+
+.card {
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 80px rgb(0, 0, 0);
+    background-color: var(--color-1);
+    border-radius: 5px !important;
+}
+
+.card-styling1 {
+    padding-right: 60px;
+}
+
+.card-styling2 {
+    padding-left: 60px;
+}
+
+.btn-style {
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 56px;
+    transform: translatey(45%);
+    border-color: rgb(123, 176, 245);
+    color: #0077ff;
+    transition: 0.25s ease;
+}
+
+.btn-style:hover {
+    background-image: linear-gradient(to right, #0077ff, #0077ff);
+    color: white;
+}
+
+
+/* .img-style{
+    width: 320px;
+    padding-left:42px;
+    padding-right:42px;
+  } */
+
+footer {
+    background-color: #0077ff;
+    font: 'Merriweather', serif;
+    font-style: normal;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-top {
+    padding: 20px 0 20px 0;
+    text-align: left;
+}
+
+.footer-top h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+
+.footer-contact i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-contact p a {
+    border-bottom: 0px dashed #ccc;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+    border-bottom: 1px dashed #856dc0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    border: 0;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #0c035a;
+    margin-left: 3px;
+}
+
+.footer-bottom {
+    padding: 0 0 0px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-social a {
+    margin: 0 2px;
+    color: #ffffff;
+    border: 0;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+    color: #0c035a;
+    border: 0;
+}
+
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+/* Style the form element with a border around it */
+
+form {
+    border: 4px solid #0077ff;
+}
+
+
+/* Add some padding and a grey background color to containers */
+
+form .container {
+    padding: 2px;
+    background-color: #0077ff;
+    display: inline;
+}
+
+input[type=text] {
+    width: 65%;
+    border-color: #0077ff;
+    background-color: #0077ff;
+    display: inline;
+}
+
+ ::placeholder {
+    color: #ffffff;
+}
+
+
+/* Style the input elements and the submit button */
+
+input[type=text],
+input[type=submit] {
+    padding: 12px;
+    margin: 0px 0;
+    display: inline;
+    border: 1px solid #0c035a;
+    box-sizing: border-box;
+    color: #0c035a;
+    border-radius: 10px;
+}
+
+
+/* Style the submit button */
+
+input[type=submit] {
+    width: 25%;
+    background-color: #323335;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+/* media queries */
+
+@media (max-width: 940px) {
+    .scro_logo {
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 320px) {
+    .scro_logo {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 30px;
+        height: auto;
+    }
+    .container1 {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 542px) {
+    .scro_logo {
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {
+    .nav_items {
+        /* padding-left: 70px !important; */
+    }
+    body {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    .card-styling1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .card-styling2 {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:900px) {
+    .container1 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 50vh;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 771px) {
+    .problem {
+        padding-left: 215px;
+    }
+}
+
+@media (max-width: 770px) {
+    .problem {
+        padding-left: 217px;
+    }
+}
+
+@media (max-width: 321px) {
+    .problem {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-styling2 {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+    }
+    .card-styling1 {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 737px) and (min-width: 414px) {
+    .problem {
+        padding-left: 77px;
+    }
+}
+
+@media (max-width: 442px) {
+    .problem {
+        padding-left: 57px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .mission-card {
+        margin-left: 45px !important;
+        margin-bottom: 50px !important;
+    }
+}
